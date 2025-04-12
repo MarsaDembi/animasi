@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Custom global styling */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+html.dark body {
+  background-color: #171717;
+  color: white;
+}
